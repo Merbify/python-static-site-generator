@@ -10,6 +10,7 @@ class Parser:
     def valid_extension(extension, self):
         return extension in self.extensions
 
+# forced to add self even though it isnt used in these methods?!
     def parse(self, path: Path, source: Path, dest: Path):
         raise NotImplementedError
     
